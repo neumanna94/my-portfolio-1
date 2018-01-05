@@ -1,19 +1,27 @@
-
-
+body {
+  background-color: #white;
+}
+.col-md-12 h2 {
+  margin 0;
+  text-align: left;
+  padding 10px 0;
+  color:black;
+}
 .jumbotron {
   padding: 4rem;
   margin: .4rem;
-  background-color: #e9ecef;
+  background-color: #b3b3b3;
   border-radius: .3rem;
+  opacity: 80%;
 
 }
 .jumbotron h1 {
   text-align: center;
-  color: red;
+  color: #0099ff;
   font-size: 4em;
 }
-.jumbotron a {
-
+.white-text {
+  color: white;
 }
 .jumbotron ul li a{
   display:block;
@@ -33,6 +41,9 @@
 .contact-header ul li {
   float: left;
   list-style: none;
+}
+.contact-header ul li a {
+  color: #4db8ff;
 }
 .navbar {
   position: relative;
