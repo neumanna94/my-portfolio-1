@@ -89,6 +89,10 @@ body {
   border-radius: 1rem;
 }
 
+.project p {
+  margin-left: 1em;
+}
+
 .col-md-12 h3
 /*Footer Section */
 .footer {
