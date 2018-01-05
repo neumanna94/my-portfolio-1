@@ -75,10 +75,21 @@ body {
   margin:0;
   padding:0;
 }
-/*Project Section*/
+/*project.html Section*/
 .project > .panel-heading{
   background-color:#4db8ff
 }
+.col-md-12 h3 {
+  text-align: center;
+}
+.project img {
+  position: relative;
+  float:left;
+  height:9em;
+  border-radius: 1rem;
+}
+
+.col-md-12 h3
 /*Footer Section */
 .footer {
   text-align: center;
