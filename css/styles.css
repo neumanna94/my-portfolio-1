@@ -1,6 +1,8 @@
+/*Basic class revisions*/
 body {
   background-color: #white;
 }
+/*Navigation Bar Section*/
 .jumbotron {
   padding: 4rem;
   margin: .4rem;
@@ -13,9 +15,6 @@ body {
   text-align: center;
   color: #0099ff;
   font-size: 4em;
-}
-.white-text {
-  color: white;
 }
 .jumbotron ul li a{
   display:block;
@@ -57,6 +56,15 @@ body {
   padding: 0px 5em;
   color: white;
 }
+/*image formatting for about.html pictures*/
+.col-md-12 img {
+  position: relative;
+  float:right;
+  background-color:default;
+  height: 9em;
+  border-radius: 10rem;
+}
+/*education.html resume section*/
 .resume-top h2 {
   text-align:center;
 }
@@ -67,6 +75,15 @@ body {
   margin:0;
   padding:0;
 }
+/*Project Section*/
+.project > .panel-heading{
+  background-color:#4db8ff
+}
+/*Footer Section */
+.footer {
+  text-align: center;
+}
+/*Misc Functions Used for Spacing &/or Coloring for spans*/
 .big-underline {
   font-style: bold;
   text-decoration: underline;
@@ -74,13 +91,6 @@ body {
 .keep-spaces {
   white-space:pre-wrap;
 }
-.col-md-12 img {
-  position: relative;
-  float:right;
-  background-color:default;
-  height: 9em;
-  border-radius: 10rem;
-}
-.footer {
-  text-align: center;
+.white-text {
+  color: white;
 }
