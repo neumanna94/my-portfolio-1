@@ -1,12 +1,6 @@
 body {
   background-color: #white;
 }
-.col-md-12 h2 {
-  margin 0;
-  text-align: left;
-  padding 10px 0;
-  color:black;
-}
 .jumbotron {
   padding: 4rem;
   margin: .4rem;
@@ -63,7 +57,28 @@ body {
   padding: 0px 5em;
   color: white;
 }
+.resume-top h2 {
+  text-align:center;
+}
+.resume-top {
+  text-align:center;
+}
+.resume-body {
+
+}
+.big-underline {
+  font-style: bold;
+  text-decoration: underline;
+}
+.col-md-12 img {
+  position: relative;
+  float:right;
+  background-color:default;
+  height: 9em;
+  border-radius: 10rem;
+
+
+}
 .footer {
   text-align: center;
-
 }
