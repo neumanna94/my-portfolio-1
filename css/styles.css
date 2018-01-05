@@ -1,0 +1,13 @@
+.navbar {
+  position: relative;
+  float:left;
+}
+
+.jumbotron {
+  background-color: default;
+  color: pink
+}
+
+.jumbotron h4 {
+  color: red;
+}
