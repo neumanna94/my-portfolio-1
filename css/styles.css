@@ -1,13 +1,58 @@
-.navbar {
-  position: relative;
-  float:left;
-}
+
 
 .jumbotron {
-  background-color: default;
-  color: pink
+  padding: 4rem;
+  margin: .4rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
+
+}
+.jumbotron h1 {
+  text-align: center;
+  color: red;
+  font-size: 4em;
+}
+.jumbotron a {
+
+}
+.jumbotron ul li a{
+  display:block;
+  text-decoration:none;
+  padding: 0px .5em;
+  color:white;
+}
+.jumbotron ul li a:hover{
+  color:red;
 }
 
-.jumbotron h4 {
-  color: red;
+.contact-header {
+  position: relative;
+  float:right;
+
+}
+.contact-header ul li {
+  float: left;
+  list-style: none;
+}
+.navbar {
+  position: relative;
+  float:center;
+  background-color:default;
+  border-radius: .3rem;
+  height: 2rem;
+  padding-top: 1.2rem;
+  margin: 0;
+}
+.navbar ul li {
+  float: left;
+  list-style: none;
+  font-size: 18px;
+}
+.navbar ul li a {
+  padding: 0px 5em;
+  color: white;
+}
+.footer {
+  text-align: center;
+
 }
