@@ -1,4 +1,4 @@
-# _{Personal Portfolio Friday Project}_
+Personal Portfolio Friday Project
 
 #### _{GIT, HTMl, CSS, Bootstrap Exercise for Epicodus}, {01.05.18}_
 
