@@ -63,12 +63,16 @@ body {
 .resume-top {
   text-align:center;
 }
-.resume-body {
-
+.resume-body ul{
+  margin:0;
+  padding:0;
 }
 .big-underline {
   font-style: bold;
   text-decoration: underline;
+}
+.keep-spaces {
+  white-space:pre-wrap;
 }
 .col-md-12 img {
   position: relative;
@@ -76,8 +80,6 @@ body {
   background-color:default;
   height: 9em;
   border-radius: 10rem;
-
-
 }
 .footer {
   text-align: center;
