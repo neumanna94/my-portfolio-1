@@ -9,7 +9,6 @@ body {
   background-color: #b3b3b3;
   border-radius: .3rem;
   opacity: 80%;
-
 }
 .jumbotron h1 {
   text-align: center;
@@ -25,11 +24,9 @@ body {
 .jumbotron ul li a:hover{
   color:red;
 }
-
 .contact-header {
   position: relative;
   float:right;
-
 }
 .contact-header ul li {
   float: left;
@@ -88,20 +85,27 @@ body {
   height:9em;
   border-radius: 1rem;
 }
-
 .project p {
   margin-left: 1em;
 }
-
-.col-md-12 h3
+.project h2 {
+  font-size: 1.5em;
+  color: white;
+}
+.project h2:hover {
+  color:red;
+  text-decoration:none;
+}
 /*Footer Section */
 .footer {
   text-align: center;
 }
 /*Misc Functions Used for Spacing &/or Coloring for spans*/
 .big-underline {
+  display:block;
   font-style: bold;
   text-decoration: underline;
+  text-underline-position: left;
 }
 .keep-spaces {
   white-space:pre-wrap;
